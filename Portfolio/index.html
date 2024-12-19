@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font Awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bad+Script&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Qwitcher+Grypen:wght@400;700&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+
+    <!-- Animate.css  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div id="container">
+        <!-- Navbar -->
+        <nav>
+            <a href="#container"><p>SameerSha</p></a>
+            
+            <ul>
+                <li class="list-items"><a class="links" href="#home">Home</a></li>
+                <li class="list-items"><a class="links" href="#about">About</a></li>
+                <li class="list-items"><a class="links" href="#skills">Skill</a></li>
+                <li class="list-items"><a class="links" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Home -->
+        <section id="home">
+            <div class="home-content">
+                <h1 class="animate__animated animate__bounceInLeft" id="username">I'm Sameer <span id="lname">Sha</span>
+                </h1>
+                <p id="user-details">This is my official portfolio website to describe all<br>
+                    Details and work experience web in development.</p>
+                <a id="download" href="./images/Sameer Sha.pdf" download>Download CV</a>
+            </div>
+            <div class="home-img">
+                <!-- Shape -->
+                <img id="shape" class="group1" src="./images/bg-final-removebg-preview.png" alt="No image">
+                <!-- girl -->
+                <img id="girl" class="group1" src="./images/Sameer.png" alt="No image">
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about">
+            <div class="sectionHead">
+                <h2 id="mainHead">About Me</h2>
+                <span class="subHead">Introduction</span>
+            </div>
+            <div class="aboutBody">
+                <div class="aboutImage" data-aos="zoom-in">
+                    <img src="./images/sameer-1.jpg"  alt="No image">
+                </div>
+                <div class="aboutContent">
+                    <p>Hello, my name is Sameer Sha. I hold a Bachelor’s degree in Computer Applications (BCA) from Don
+                        Bosco College, Kottiyam. Currently, I am diving deeper into the world of web development by
+                        pursuing MEAN Stack Development at Luminar Technolab.
+                        During my academic and professional journey, I have had the opportunity to work on projects like
+                        Farm Management System and Explore Kerala, which allowed me to apply my technical knowledge to
+                        solve real-world challenges. 
+                       </p>
+                    <div class="information">
+                        <div class="infoBox">
+                            <i class="fa-solid fa-user" style="color: #000000;"></i>
+                            <span>Sameer Sha</span>
+                        </div>
+                        <div class="infoBox">
+                            <i class="fa-solid fa-phone" style="color: #000000;"></i>
+                            <span>7736629003</span>
+                        </div>
+                        <div class="infoBox">
+                            <i class="fa-solid fa-envelope" style="color: #000000;"></i>
+                            <span>sameermanzil4099@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skill -->
+        <section id="skills">
+            <div class="sectionHead">
+                <h2 id="mainHead">Skills</h2>
+                <span class="subHead">My Skills</span>
+            </div>
+            <div class="skillContents">
+                <div class="progressbars">
+                    <!-- progressbar -->
+                    <div class="bars">
+                        <h3 class="barHead">HTML</h3>
+                        <span class="barPercent">84%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="zoom-in-right" class="htmlBar baseBar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">CSS</h3>
+                        <span class="barPercent">79%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="zoom-in-right" class="cssBar baseBar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">JS</h3>
+                        <span class="barPercent">70%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="zoom-in-right" class="jsBar baseBar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">REACT</h3>
+                        <span class="barPercent">85%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="zoom-in-right" class="reactBar baseBar"></div>
+                    </div>
+                </div>
+                <div data-aos="fade-left" class="skillImage">
+                    <img src="https://img.freepik.com/free-vector/people-analyzing-growth-charts-illustrated_23-2148865433.jpg?uid=R72423625&ga=GA1.1.499160467.1727324719&semt=ais_hybrid"
+                        alt="No image">
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section id="contact">
+            <div class="sectionHead">
+                <h2 id="mainHead">Contacts</h2>
+                <span class="subHead">My Contacts</span>
+            </div>
+            <div class="iconCollections">
+                <!-- Linkedin -->
+                <div class="icon">
+                    <a href="#Linkedin" target="_self"><i class="fa-brands fa-linkedin brands"></i></a>
+                </div>
+                <!-- github -->
+                <div class="icon">
+                    <a href="#github" target="_self"><i class="fa-brands fa-github brands"></i></a>
+                </div>
+                <!-- X App -->
+                <div class="icon">
+                    <a href="#X" target="_self"><i class="fa-brands fa-x-twitter brands"></i></a>
+                </div>
+                <!-- whatsapp -->
+                <div class="icon">
+                    <a href="#Whatsapp" target="_self"><i class="fa-brands fa-whatsapp brands"></i></a>
+                </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a href="#facebook" target="_self"><i class="fa-brands fa-facebook brands"></i></a>
+                </div>
+                <!-- instagram -->
+                <div class="icon">
+                    <a href="#Instagram" target="_self"><i class="fa-brands fa-instagram brands"></i></a>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <p id="copyright">&copy;My portfolio website -june2024, All rights reserved to &reg; Sameer Sha</p>
+            <div class="icon upArrow">
+                <a href="#container" target="_self"><i class="fa-solid fa-angle-up brands"></i></i></a>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- Js link AOS animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
